@@ -1,0 +1,27 @@
+<template>
+    <template if:true={orderProductsList}>
+        <lightning-card title="Order Products">
+            <div class="slds-p-around_small">
+                <lightning-button label="Save changes and confirm Order" onclick={handleClick} disabled={buttonDisabled} class="slds-float_right" ></lightning-button>
+
+            </div>
+            </br>
+            <div class="slds-p-around_small">
+                    <lightning-datatable
+                            record-id={recordId}
+                            key-field="id"
+                            data={orderProductsList}
+                            columns={columns}>
+                    </lightning-datatable>
+                    
+            </div>
+            <template if:true={boolShowSpinner}>
+                <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+            </template>
+        </lightning-card>
+    </template>
+    <template if:true={error}>
+        <p>{error}</p>
+    </template>
+    
+</template>
