@@ -67,6 +67,7 @@ export default class BasicDatatable extends LightningElement {
                 }),
             );
         } else if (data) {
+            alert(data);
             this.currentOrder = data;
             this.currentOrderId = this.currentOrder.fields.Id.value;
             this.buttonDisabled = this.currentOrder.fields.Status.value == 'Activated';

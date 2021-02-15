@@ -1,0 +1,14 @@
+[    
+    {
+      "productName":"Product 1", 
+      "unitPrice": 100.0,
+      "quantity": 1,
+      "totalPrice":100.00
+    },
+    {
+        "productName":"Product 2", 
+        "unitPrice": 110.0,
+        "quantity": 3,
+        "totalPrice":3300.00
+      }
+  ]
