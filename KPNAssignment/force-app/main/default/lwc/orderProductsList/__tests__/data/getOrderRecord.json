@@ -1,3 +1,42 @@
+<<<<<<< HEAD
+{
+	"apiName": "Order",
+	"childRelationships": {},
+	"fields": {
+		"Account": {
+
+			"displayValue": "Bilbo Baggins",
+			"value": {
+				"apiName": "Account",
+				"fields": {
+					"AccountNumber": {
+						"displayValue": null,
+						"value": "1234567"
+					}
+				}
+			}
+		},
+		"Id": {
+			"displayValue": null,
+			"value": "8015Y000000V905QAC"
+		},
+		"OrderNumber": {
+			"displayValue": null,
+			"value": "00000100"
+		},
+		"Status": {
+			"displayValue": "Draft",
+			"value": "Draft"
+		},
+		"Type": {
+			"displayValue": null,
+			"value": null
+		}
+	},
+	"id": "8015Y000000V905QAC",
+	"lastModifiedById": "0055Y00000DbMfwQAF"
+}
+=======
 {
     "fields":
     [
@@ -33,3 +72,4 @@
             } 
     ]
   }
+>>>>>>> ec97bc5f7c276e12456155b3b36f373c844c4b69
